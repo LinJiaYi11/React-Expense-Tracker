@@ -14,4 +14,4 @@ Create a new folder in which to store all the files needed for this component, s
     - login.png
     - etc.
 ## About git 
-Please operate on the dev branch
+operate on the dev branch
