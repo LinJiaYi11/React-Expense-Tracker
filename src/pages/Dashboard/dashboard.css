@@ -1,0 +1,110 @@
+.dashboard {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  padding-right: 40px;
+  overflow-y: auto;
+}
+
+/* main */
+.dashboard__main {
+  width: 100%;
+  display: flex;
+  margin-top: 108px;
+}
+/* content */
+.dashboard__main__content {
+  margin-right: 40px;
+  flex: 2;
+}
+
+.dashboard__main__content__cards {
+  width: 100%;
+}
+
+.dashboard__main__content__cards_ul {
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard__main__content__card {
+  display: flex;
+  align-items: center;
+  padding: 24px 20px;
+  gap: 15px;
+  width: 222px;
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+.dashboard__main__content__card--active {
+  background-color: #363a3f;
+}
+.dashboard__main__content__card_ellipse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: #ebe8e8;
+  border-radius: 50%;
+}
+.dashboard__main__content__card_ellipse--active {
+  background-color: #4e5257;
+}
+.dashboard__main__content__card_total {
+  font-family: "Kumbh Sans";
+}
+.dashboard__main__content__card_total_title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #929eae;
+}
+.dashboard__main__content__card_total_cost {
+  font-weight: 700;
+  font-size: 24px;
+  color: #1b212d;
+  margin-top: 10px;
+}
+.dashboard__main__content__card_total_cost--active {
+  color: #ffffff;
+}
+.content--box {
+  margin-top: 30px;
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 19px 20px 21px 25px;
+}
+.dashboard__main__content__graph {
+  width: 100%;
+}
+.dashboard__main__content__recent {
+  width: 98%;
+}
+
+/* wallet */
+.dashboard__main__wallet {
+  flex: 1;
+  /* border: 1px solid green; */
+}
+.dashboard__main__wallet_box{
+
+}
+.dashboard__main__wallet_item {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  margin-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+.dashboard__main__wallet_item:last-of-type{
+    border-bottom: 0px;
+}
+
+.dashboard__main__wallet_item_cost {
+  font-family: "Kumbh Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-left: auto;
+}
